@@ -6,8 +6,8 @@
 *   **Contact Information:**
     *   **Admin Email:** leader@johnztrueorganics.org
     *   **Marketing/PR Contact:** lesego@johnztrueorganics.org
-    *   **Phone:** 060 456 1732
-    *   **Physical Address:** Britz Murray Avenue, NW
+    *   **Phone:** +27 83 326 0018 (General) / +27 61 110 4495 (WhatsApp - John)
+    *   **Physical Address:** Murray Avenue, Brits, North West (NW), South Africa
     *   **Website:** johnztrueorganics.org (pending Square Base verification)
 
 ### **2. The Story: A Partnership in Purity**
@@ -46,9 +46,4 @@ J&M True Organics offers a compelling reseller program, providing a clear path t
 | 3     | 2 Juice, 2 Drops | R2800      | R6960         |
 | 4     | 4 Juice, 4 Drops | R5600      | R13920        |
 
----
 
-**Note to User:** Please review this updated draft. I still need your input on the following to fully complete the profile:
-
-*   **The Story of John and Mary:** A brief background on what inspired your joint journey into organic wellness and beauty, and how your partnership came about.
-*   **Specific Sourcing/Production Details:** What makes your products "True Organics"? Any specific sourcing methods, certifications, or unique production techniques for your chlorophyll, drops, and beauty products?

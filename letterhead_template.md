@@ -5,8 +5,8 @@
 
 **Contact Information:**
 *   **Email:** leader@johnztrueorganics.org | lesego@johnztrueorganics.org
-*   **Phone:** 060 456 1732
-*   **Address:** Britz Murray Avenue, NW
+*   **Phone:** +27 83 326 0018 / +27 61 110 4495 (WhatsApp)
+*   **Address:** Murray Avenue, Brits, North West (NW), South Africa
 *   **Website:** johnztrueorganics.org
 
 ---

@@ -28,6 +28,6 @@ Dear [Recipient Name],
 
 Sincerely,
 
-**John & Mary**
+**John & Martha**
 Founders, J&M True Organics
 "Discipline Today, Freedom Tomorrow"

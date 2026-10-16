@@ -1,6 +1,23 @@
 # Cloudflare API setup
 
-This branch adds a small Worker API while preserving the existing static site.
+The existing `johnztrueorganics` deployment is a static-assets-only site. This branch intentionally deploys a separate runtime Worker named `johnztrueorganics-api`, so the live website remains unchanged while the API is tested.
+
+## Deployment
+
+Create a new Worker from this repository and branch:
+
+- Repository: `housinhues/jm-true-organics`
+- Branch: `feat/cloudflare-supabase-api`
+- Worker name: `johnztrueorganics-api`
+- Entry point: `worker.js`
+- Configuration: `wrangler.jsonc`
+
+After deployment, add encrypted production variables under **Settings → Variables and Secrets**:
+
+- `SUPABASE_URL` = `https://yduvwjrzhmmvjnrfyrsy.supabase.co`
+- `SUPABASE_PUBLISHABLE_KEY` = the Supabase publishable key
+
+Never add a Supabase service-role key to this Worker or repository.
 
 ## Routes
 
@@ -8,21 +25,8 @@ This branch adds a small Worker API while preserving the existing static site.
 - `GET /api/products` — active products only
 - `POST /api/applications` — validated public application submission
 
-## Required Worker variables
-
-Set these as encrypted production variables in Cloudflare Workers & Pages:
-
-- `SUPABASE_URL=https://yduvwjrzhmmvjnrfyrsy.supabase.co`
-- `SUPABASE_PUBLISHABLE_KEY=<Supabase publishable key>`
-
-The publishable key is safe for client-facing use; never add a Supabase service-role key to this repository or browser code.
+The API Worker should initially receive a `workers.dev` URL for testing. Only after the endpoints pass testing should Cloudflare route `johnztrueorganics.org/api/*` to this Worker.
 
 ## Not included yet
 
-- Turnstile validation
-- Authenticated admin routes
-- Order creation
-- Payment webhooks
-- Inventory mutation endpoints
-
-Those require their own tested migrations and policies before release.
+Turnstile validation, authenticated admin routes, order creation, payment webhooks, and inventory mutations require their own tested migrations and policies before release.
